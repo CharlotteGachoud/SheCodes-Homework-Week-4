@@ -1,9 +1,9 @@
-.Weather  {
+body {
   font-family: "Dosis", sans-serif;
   background: rgba(108, 99, 255, 0.1);
 }
 
-div.wrapper {
+.Weather .wrapper {
   margin-bottom: 40px;
 }
 
