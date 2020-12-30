@@ -1,0 +1,176 @@
+body {
+  font-family: "Dosis", sans-serif;
+  background: rgba(108, 99, 255, 0.1);
+}
+
+div.wrapper {
+  margin-bottom: 40px;
+}
+
+div.container {
+  margin: 50px auto 5px;
+  max-width: 1000px;
+}
+
+div.card {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 105, 217, 0.2);
+  background: rgba(7, 104, 159, 0.2);
+}
+
+h1,
+p,
+.icon,
+.last-uptdate,
+.current-date,
+.time,
+.current-temp,
+.real-feel-text,
+.weather-description,
+.real-feel-temp,
+.forecast,
+.code-by {
+  text-align: center;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+div.weather-description,
+.wind,
+.sentence,
+.real-feel-text {
+  margin: 0 auto 30px;
+}
+
+img.main-icon {
+  display: block;
+  margin: 0 auto;
+}
+
+img.forecast-icon {
+  display: block;
+  margin: 10px auto 0;
+}
+
+div.humidity,
+.wind,
+.sunrise,
+.sunset {
+  text-align: right;
+  font-weight: 600;
+}
+
+h1,
+.week-days,
+.now-temp,
+.open-source-link,
+.max-temp,
+.degree-sign-max {
+  font-weight: 600;
+}
+
+form {
+  margin: 12px 5px 52px;
+}
+
+.current-temp {
+  margin: 10px auto 0;
+  font-size: 32px;
+}
+
+.btn-units {
+  display: block;
+  margin: 15px auto 0;
+  width: 150px;
+  height: 36px;
+  transition: all 200ms ease-in-out;
+}
+
+.metric,
+.imperial,
+.spacing {
+  color: rgb(150, 194, 248);
+  text-decoration: none;
+}
+
+.metric:hover,
+.imperial:hover {
+  color: rgb(0, 115, 255);
+}
+
+.btn-search,
+.btn-units {
+  background: rgba(0, 86, 179, 0.7);
+  border: rgba(0, 86, 179, 0.7);
+  box-shadow: 3px 3px 5px 1px rgba(0, 86, 179, 0.2);
+  transition: all 200ms ease-in-out;
+  color: rgb(150, 194, 248);
+}
+
+.btn-units:hover,
+.btn-search:hover {
+  color: rgb(0, 115, 255);
+  background: #ffffff;
+}
+
+.active {
+  font-weight: 900;
+  text-shadow: 0.5px 0.5px 1px rgba(88, 138, 185, 0.5);
+}
+
+.illustration {
+  max-width: 100%;
+  margin: 40px auto;
+}
+
+.search-form {
+  display: block;
+  margin: 15px auto;
+  max-width: 200px;
+}
+
+.btn-search {
+  margin: 0 0;
+}
+
+.city-search {
+  margin: 0 0 0 0;
+  width: 100px;
+}
+
+.indications {
+  margin: 80px auto 80px;
+}
+
+.weather-description,
+.description-forecast:first-letter {
+  text-transform: capitalize;
+}
+
+.description-forecast {
+  margin: 0 auto 20px;
+}
+
+.max-temp,
+.degree-sign-max {
+  color: #ec6e4c;
+}
+
+.min-temp,
+.degree-sign-min {
+  color: #0056b3;
+}
+
+.indications,
+.sunrise-set,
+.real-feel-text,
+.weather-description,
+.real-feel-temp,
+.week-days,
+.sentence {
+  font-size: 20px;
+}
+
+.code-by {
+  font-size: 15px;
+}
