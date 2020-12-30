@@ -4,12 +4,12 @@ import "./Weather.css";
 function Weather() {
   let weatherData = {
     city: "New York",
-    temperature: 19,
+    temperature: 7,
     date: "Monday December 21",
     time: "16:25",
     imgUrl: "http://openweathermap.org/img/wn/04n@2x.png",
-    description: "Cloudy",
-    realFeel: 15,
+    description: "Broken clouds",
+    realFeel: 4,
     imgMain: "./Tree_swing.svg",
     sentance: "How about a nice cup of coco?",
     humidity: 80,
@@ -131,17 +131,93 @@ function Weather() {
             </div>
           </div>
           <div className="row forecast">
-            <div className="col">Forecast</div>
-            <div className="col">Forecast</div>
-            <div className="col">Forecast</div>
-            <div className="col">Forecast</div>
-            <div className="col">Forecast</div>
-            <div className="col">Forecast</div>
+            <div className="col">
+                <p className="week-days">
+                  Tuesday
+                </p>
+                <img src="http://openweathermap.org/img/wn/04n@2x.png" alt="weather icon" className="forecast-icon"/>
+                <p className="description-forecast">
+                  Broken clouds
+                </p>
+                <div className="row min-max-temp">
+                  <div className="col">
+                    <span className="max-temp">6°C</span> {" "}| {" "}
+                    <span className="min-temp">2°C</span>
+                  </div>
+                 </div> 
+            </div>
+            <div className="col">
+              <p className="week-days">
+                  Wednesday
+                </p>
+                <img src="http://openweathermap.org/img/wn/04n@2x.png" alt="weather icon" className="forecast-icon"/>
+                <p className="description-forecast">
+                  Broken clouds
+                </p>
+                <div className="row min-max-temp">
+                  <div className="col">
+                    <span className="max-temp">7°C</span> {" "}| {" "}
+                    <span className="min-temp">4°C</span>
+                  </div>
+                 </div> 
+            </div>
+            <div className="col"><p className="week-days">
+                  Thursday
+                </p>
+                <img src="http://openweathermap.org/img/wn/02n@2x.png" alt="weather icon" className="forecast-icon"/>
+                <p className="description-forecast">
+                  few clouds
+                </p>
+                <div className="row min-max-temp">
+                  <div className="col">
+                    <span className="max-temp">6°C</span> {" "}| {" "}
+                    <span className="min-temp">2°C</span>
+                  </div>
+                 </div> </div>
+            <div className="col"><p className="week-days">
+                  Friday
+                </p>
+                <img src="http://openweathermap.org/img/wn/01n@2x.png" alt="weather icon" className="forecast-icon"/>
+                <p className="description-forecast">
+                  clear sky
+                </p>
+                <div className="row min-max-temp">
+                  <div className="col">
+                    <span className="max-temp">11°C</span> {" "}| {" "}
+                    <span className="min-temp">5°C</span>
+                  </div>
+                 </div> </div>
+            <div className="col"><p className="week-days">
+                  Saturday
+                </p>
+                <img src="http://openweathermap.org/img/wn/03n@2x.png" alt="weather icon" className="forecast-icon"/>
+                <p className="description-forecast">
+                   	scattered clouds 
+                </p>
+                <div className="row min-max-temp">
+                  <div className="col">
+                    <span className="max-temp">8°C</span> {" "}| {" "}
+                    <span className="min-temp">3°C</span>
+                  </div>
+                 </div> </div>
+            <div className="col"><p className="week-days">
+                  Sunday
+                </p>
+                <img src="http://openweathermap.org/img/wn/10n@2x.png" alt="weather icon" className="forecast-icon"/>
+                <p className="description-forecast">
+                  rain
+                </p>
+                <div className="row min-max-temp">
+                  <div className="col">
+                    <span className="max-temp">5°C</span> {" "}| {" "}
+                    <span className="min-temp">1°C</span>
+                  </div>
+                 </div> </div>
           </div>
         </div>
       </div>
-      <div class="code-by">
-        <a href="/" class="open-source-link" target="_blank">
+      <div className="code-by">
+        <a href="https://www.linkedin.com/in/charlotte-gachoud-5210811b9/" className="open-source-link" target="_blank" rel="noreferrer">
           Open-source code
         </a>{" "}
         by{" "}
