@@ -51,7 +51,7 @@ function Weather() {
                     <span className="celsius">°C</span>
                   </div>
                 </div>
-      
+
                 <div className="col">
                   <div className="row">
                     <button type="button" className="btn btn-primary btn-units">
@@ -73,7 +73,7 @@ function Weather() {
                     <em>{weatherData.sentance}</em>
                   </p>
                 </div>
-      
+
                 <div className="col">
                   <form className="search-form">
                     <div className="row search-bar">
@@ -219,7 +219,7 @@ function Weather() {
             </div>
           </div>
           <div className="code-by">
-            <a href="https://www.linkedin.com/in/charlotte-gachoud-5210811b9/" className="open-source-link" target="_blank" rel="noreferrer">
+            <a href="https://github.com/CharlotteGachoud/weather-app-react" className="open-source-link" target="_blank" rel="noreferrer">
               Open-source code
             </a>{" "}
             by{" "}
