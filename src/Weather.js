@@ -10,7 +10,7 @@ function Weather() {
     imgUrl: "http://openweathermap.org/img/wn/04n@2x.png",
     description: "Broken clouds",
     realFeel: 4,
-    imgMain: "./Tree_swing.svg",
+    imgMain: "./Balloons.svg",
     sentance: "How about a nice cup of coco?",
     humidity: 80,
     wind: 5,
